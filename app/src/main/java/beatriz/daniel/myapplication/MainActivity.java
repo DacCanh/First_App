@@ -19,7 +19,7 @@ public class MainActivity extends AppCompatActivity {
         btnEnviar.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                EditText etDigiteAqui = findViewById(R. id. et_digite_aqui);
+                EditText etDigiteAqui = findViewById(R. id. et_digite_aqui);//obtém a caixa de texto
                 String textoDigitado = etDigiteAqui.getText().toString();
                 Intent i = new Intent(MainActivity.this, NextActivity.class);
                 i.putExtra("texto", textoDigitado);
