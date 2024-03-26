@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Danibas.My Application</string>
+    <string name="et_digite_aqui">Type something here</string>
+    <string name="btn_enviar">Send</string>
+</resources>
